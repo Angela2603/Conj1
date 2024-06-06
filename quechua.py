@@ -19,7 +19,7 @@ option = st.selectbox(
 st.write("El verbo en español es", dict_que_esp[option])
 
 persona = st.radio(
-    'Selecciona la persona',
+    'Elige la persona',
     ['Primera','Segunda','Tercera','Cuarta'])
 
 numero = st.radio(
